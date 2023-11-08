@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: componenta-devfile-sample-go-basic-private-devfile-nested-hwhj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-zaql-tenant/mc-golang-nested/componenta-devfile-sample-go-basic-private-devfile-nested-hwhj@sha256:6b9978e1658b1bff341511c993989d29f2144fceda5c8c0db6ab2bd4fb7e9316
+        name: my-go
+        resources: {}
+status: {}
